@@ -1,2 +1,6 @@
 # WDA Úvod
-## Dátum prvého stretnutia: __04.03.2019__
+## Dátum prvého stretnutia: 04.03.2019  
+  
+  Obsah:
+  1. `GitHub`
+  2. `Anaconda`
