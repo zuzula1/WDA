@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Contract <= 0.5\ngini = 0.396\nsamples = 4930\nvalue = [3589, 1341]\nclass = 0"] ;
+1 [label="InternetService <= 1.5\ngini = 0.491\nsamples = 2728\nvalue = [1551, 1177]\nclass = 0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Tenure_ordinal <= 0.5\ngini = 0.41\nsamples = 1228\nvalue = [874, 354]\nclass = 0"] ;
+1 -> 2 ;
+3 [label="gini = 0.484\nsamples = 571\nvalue = [337, 234]\nclass = 0"] ;
+2 -> 3 ;
+4 [label="gini = 0.299\nsamples = 657\nvalue = [537, 120]\nclass = 0"] ;
+2 -> 4 ;
+5 [label="Tenure_ordinal <= 1.5\ngini = 0.495\nsamples = 1500\nvalue = [677, 823]\nclass = 1"] ;
+1 -> 5 ;
+6 [label="gini = 0.443\nsamples = 850\nvalue = [281, 569]\nclass = 1"] ;
+5 -> 6 ;
+7 [label="gini = 0.476\nsamples = 650\nvalue = [396, 254]\nclass = 0"] ;
+5 -> 7 ;
+8 [label="InternetService <= 1.5\ngini = 0.138\nsamples = 2202\nvalue = [2038, 164]\nclass = 0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Contract <= 1.5\ngini = 0.079\nsamples = 1525\nvalue = [1462, 63]\nclass = 0"] ;
+8 -> 9 ;
+10 [label="gini = 0.147\nsamples = 652\nvalue = [600, 52]\nclass = 0"] ;
+9 -> 10 ;
+11 [label="gini = 0.025\nsamples = 873\nvalue = [862, 11]\nclass = 0"] ;
+9 -> 11 ;
+12 [label="Contract <= 1.5\ngini = 0.254\nsamples = 677\nvalue = [576, 101]\nclass = 0"] ;
+8 -> 12 ;
+13 [label="gini = 0.313\nsamples = 392\nvalue = [316, 76]\nclass = 0"] ;
+12 -> 13 ;
+14 [label="gini = 0.16\nsamples = 285\nvalue = [260, 25]\nclass = 0"] ;
+12 -> 14 ;
+}
